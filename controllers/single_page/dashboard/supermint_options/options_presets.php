@@ -2,7 +2,7 @@
 namespace Concrete\Package\ThemeSupermint\Controller\SinglePage\Dashboard\SupermintOptions;
 
 use Core;
-use \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions;
+use \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions;
 
 use \Concrete\Package\ThemeSupermint\Controller\SinglePage\Dashboard\SupermintOptions as SmController;
 

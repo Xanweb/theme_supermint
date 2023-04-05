@@ -8,7 +8,7 @@ $time_start = microtime(true);
 $prepare_start = microtime(true);
 $i = 0;
 // Les options
-$o = \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions::get();
+$o = \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions::get();
 
 // Reglage ecommerce
 $pc = array();

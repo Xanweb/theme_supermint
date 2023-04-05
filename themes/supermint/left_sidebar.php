@@ -1,5 +1,5 @@
 <?php  defined('C5_EXECUTE') or die(_("Access Denied."));
-$o = \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions::get();
+$o = \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions::get();
 
 $span_sidebar = 'col-md-' . $o->sidebar_size;
 $span_main = 'col-md-' . ( 12 - $o->sidebar_size - $o->sidebar_offset ) ;

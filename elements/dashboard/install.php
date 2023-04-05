@@ -1,4 +1,4 @@
-<?php  defined('C5_EXECUTE') or die(_("Access Denied."));
+<?php  defined('C5_EXECUTE') or die('Access Denied.');
 $form = core::make('helper/form');
 $spPath = 'packages/theme_supermint/starting_points';
 $spArray = Core::make('helper/file')->getDirectoryContents($spPath);
@@ -6,9 +6,14 @@ $spArray = Core::make('helper/file')->getDirectoryContents($spPath);
 
 <div class="install_wrapper">
 	<input type="hidden" name="spHandle" id="starting_point_handle" value="0">
-	<h3><?php  echo t('Choose the Starting Point');?></h3>
-	<p><?php  echo t('A starting point is a Complete site that will be installed on your server');?></p>
-	<div class="alert alert-danger" role="alert"><p><strong><?php echo ('Important :')?> </strong><?php echo t('To avoid any errors, ensure installing Starting Points on a newly created website without content.') ?></p></div>
+	<h3><?php echo t('Choose the Starting Point'); ?></h3>
+	<p><?php echo t('A starting point is a Complete site that will be installed on your server');?></p>
+	<div class="alert alert-danger" role="alert">
+        <p>
+            <strong><?php echo ('Important :')?> </strong>
+            <?php echo t('To avoid any errors, ensure installing Starting Points on a newly created website without content.') ?>
+        </p>
+    </div>
 
 	<div class="thumbnail-list clearfix" style="margin-top:20px;">
 		<div class="col starting_point active">
@@ -34,7 +39,7 @@ $spArray = Core::make('helper/file')->getDirectoryContents($spPath);
 					<div class="info">
 						<div class="inner">
 							<h3><?php  echo ucwords(str_replace('_', ' ', $spHandle));?></h3>
-							<p><?php  echo Core::make('helper/file')->getContents($spPath . '/' . $spHandle . '/description.txt');?></p>
+							<p><?php  echo app('helper/file')->getContents($spPath . '/' . $spHandle . '/description.txt');?></p>
 							<div class="btn-group" role="group">
 							 <a class="btn spPicker btn-primary" rel="<?php echo $spHandle ?>"><?php echo t('Choose ') . ucwords(str_replace('_', ' ', $spHandle))  ?></a>
 							 <a href="http://<?php echo $spHandle?>.supermint3.myconcretelab.com/" target="_blank" class="btn btn-default"><?php echo t('Live Preview') ?></a>

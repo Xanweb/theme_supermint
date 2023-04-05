@@ -1,5 +1,5 @@
 <?php 
-namespace Concrete\Package\ThemeSupermint\Src\Models;
+namespace Concrete\Package\ThemeSupermint\Models;
 
 defined('C5_EXECUTE') or die(_("Access Denied."));
 

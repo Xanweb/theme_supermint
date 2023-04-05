@@ -1,5 +1,5 @@
 <?php  defined('C5_EXECUTE') or die(_("Access Denied."));
-$o = \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions::get();
+$o = \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions::get();
 $col_logo = $o->logo_col_size ? (int)$o->logo_col_size : 8;
 $col_right = 12 - $col_logo;
 ?>

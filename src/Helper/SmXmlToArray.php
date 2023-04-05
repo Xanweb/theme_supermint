@@ -1,5 +1,5 @@
 <?php 
-namespace Concrete\Package\ThemeSupermint\Src\Helper;
+namespace Concrete\Package\ThemeSupermint\Helper;
 use DOMDocument;
 
 /**

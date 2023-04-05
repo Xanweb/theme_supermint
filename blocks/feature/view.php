@@ -1,7 +1,7 @@
 <?php 
 defined('C5_EXECUTE') or die("Access Denied.");
 $title = $linkURL ? ('<a href="' . $linkURL . '">' . h($title) . '</a>') : h($title);
-$o = \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions::get();
+$o = \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions::get();
 
 ?>
 <div class="feature-box full">

@@ -1,7 +1,7 @@
 <?php defined('C5_EXECUTE') or die("Access Denied.");
 $navigationTypeText = ($navigationType == 0) ? 'arrows' : 'pages';
 $c = Page::getCurrentPage();
-$o = \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions::get();
+$o = \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions::get();
 if ($c->isEditMode()) :
     $templateName = $controller->getBlockObject()->getBlockFilename();
     $type = \Concrete\Core\File\Image\Thumbnail\Type\Type::getByHandle('file_manager_detail');

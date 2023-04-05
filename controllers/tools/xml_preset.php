@@ -11,7 +11,7 @@ class XmlPreset extends RouteController {
 		
 		function render () {
 			if (!$_GET['pid']) die('No pID');
-			$o = new \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions(app());
+			$o = new \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions(app());
 			$th = Loader::helper('text');
 			$xmlDOM =$o->getXML_from_pid($_GET['pid']);
 

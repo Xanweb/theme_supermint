@@ -1,20 +1,19 @@
 <?php 
-namespace Concrete\Package\ThemeSupermint\Src\Models;
+namespace Concrete\Package\ThemeSupermint\Models;
 
 use Concrete\Core\Application\ApplicationAwareInterface;
 use Concrete\Core\Application\ApplicationAwareTrait;
 use Concrete\Core\Database\Connection\Connection;
 use Concrete\Core\Package\PackageService;
 use Loader;
-use Config;
 use Package;
 use DOMDocument;
 use Page;
 use stdClass;
 
-use \Concrete\Package\ThemeSupermint\Src\Helper\ThemeFile as ThemeFileHelper;
-use \Concrete\Package\ThemeSupermint\Src\Helper\SmArrayToXml;
-use \Concrete\Package\ThemeSupermint\Src\Helper\SmXmlToArray ;
+use \Concrete\Package\ThemeSupermint\Helper\ThemeFile as ThemeFileHelper;
+use \Concrete\Package\ThemeSupermint\Helper\SmArrayToXml;
+use \Concrete\Package\ThemeSupermint\Helper\SmXmlToArray ;
 use Concrete\Core\Application\Application;
 use Concrete\Core\Entity\Package as PackageEntity;
 

@@ -1,7 +1,7 @@
 <?php 
-namespace Concrete\Package\ThemeSupermint\Src\Helper;
+namespace Concrete\Package\ThemeSupermint\Helper;
 
-use Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions;
+use Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions;
 
 /**
  * @package Supermint theme Options

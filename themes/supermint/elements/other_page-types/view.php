@@ -1,6 +1,6 @@
 <?php  defined('C5_EXECUTE') or die(_("Access Denied."));
 $c = Page::getCurrentPage();
-$o = \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions::get();
+$o = \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions::get();
 
 $this->inc('elements/header.php');
 ?>

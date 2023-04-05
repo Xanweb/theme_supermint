@@ -92,4 +92,4 @@ $options = array(
     )
 );
 if (!isset($passThrough))
-new Concrete\Package\ThemeSupermint\Src\Helper\OptionsGenerator($options, null, $this->action('save_site_settings'), false, $options_saved);
+new Concrete\Package\ThemeSupermint\Helper\OptionsGenerator($options, null, $this->action('save_site_settings'), false, $options_saved);

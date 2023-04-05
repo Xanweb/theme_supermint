@@ -1,10 +1,10 @@
 <?php 
 namespace Concrete\Package\ThemeSupermint\Attribute\SupermintPresetList;
 
-defined('C5_EXECUTE') or die(_("Access Denied."));
+defined('C5_EXECUTE') or die("Access Denied.");
 
 use \Concrete\Core\Attribute\DefaultController;
-use \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions as ThemeSupermintOptions;
+use \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions as ThemeSupermintOptions;
 use View;
 
 class Controller extends DefaultController  {

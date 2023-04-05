@@ -284,7 +284,7 @@ $options = array(
 
 
 if (!isset($passThrough)) :
-new Concrete\Package\ThemeSupermint\Src\Helper\OptionsGenerator($options, $pID, $this->action('save_options'), $this->action('view'));
+new Concrete\Package\ThemeSupermint\Helper\OptionsGenerator($options, $pID, $this->action('save_options'), $this->action('view'));
 ?>
 <script>
     var FONT_DETAILS_TOOLS_URL = "<?php echo URL::to('/ThemeSupermint/tools/font_details')?>";

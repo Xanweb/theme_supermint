@@ -3,7 +3,7 @@ namespace Concrete\Package\ThemeSupermint\Controller\Tools;
 
 use \Concrete\Core\Controller\Controller as RouteController;
 use Concrete\Core\Http\ResponseFactoryInterface;
-use \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions;
+use \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions;
 use Page;
 use Loader;
 

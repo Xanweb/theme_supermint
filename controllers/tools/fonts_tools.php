@@ -5,7 +5,7 @@ use \Concrete\Core\Controller\Controller as RouteController;
 use Fileset;
 use Loader;
 
-use \Concrete\Package\ThemeSupermint\Src\Models\SupermintFontList;
+use \Concrete\Package\ThemeSupermint\Models\SupermintFontList;
 
 class FontsTools extends RouteController {		
 	function getFontDetails () {

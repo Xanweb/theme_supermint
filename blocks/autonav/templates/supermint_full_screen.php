@@ -1,5 +1,5 @@
 <?php defined('C5_EXECUTE') or die("Access Denied.");
-$o = \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions::get();
+$o = \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions::get();
 $navItems = $controller->getNavItems();
 // Global Logo
 if($o->display_logo_mobile_nav) $logo = Stack::getByName('Site Logo');

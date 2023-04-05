@@ -1,7 +1,7 @@
 <?php  defined('C5_EXECUTE') or die(_("Access Denied."));
 $c = Page::getCurrentPage();
 // Les options
-$o = \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions::get();
+$o = \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions::get();
 $intro = new Area('Intro');
 $intro->load($c);
 $display_intro = $intro->getTotalBlocksInArea() > 0 || $c->isEditMode() ; // Peut etre ajouter un test pour les page-type

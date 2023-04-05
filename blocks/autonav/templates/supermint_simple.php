@@ -1,7 +1,7 @@
 <?php  defined('C5_EXECUTE') or die(_("Access Denied."));
 
 $navItems = $controller->getNavItems();
-$o = \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions::get();
+$o = \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions::get();
 
 foreach ($navItems as $ni) {
 	$classes = array();

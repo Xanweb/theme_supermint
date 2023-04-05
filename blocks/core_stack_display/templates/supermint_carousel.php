@@ -2,7 +2,7 @@
 
 use Concrete\Core\Block\View\BlockView;
 $c = Page::getCurrentPage();
-$o = \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions::get();
+$o = \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions::get();
 $t =  $c->getCollectionThemeObject();
 $cp = new Permissions($c);
 

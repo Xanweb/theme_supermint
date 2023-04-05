@@ -4,7 +4,7 @@ $c = Page::getCurrentPage();
 if (!$content && is_object($c) && $c->isEditMode()) : ?>
 	<div class="ccm-edit-mode-disabled-item"><?php echo t('Empty Content Block.')?></div> 
 <?php else :
-	$o = \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions::get();
+	$o = \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions::get();
 	preg_match_all('/<h3[^>]*>(.*?)<\/h3>/si', $content, $matches);
 	if ($matches[1][0] != "") {
 		$heading_value = $matches[1][0];

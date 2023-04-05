@@ -1,11 +1,11 @@
 <?php 
-namespace Concrete\Package\ThemeSupermint\Src\Models;
+namespace Concrete\Package\ThemeSupermint\Models;
 
 defined('C5_EXECUTE') or die(_("Access Denied."));
 
 use \Concrete\Core\Legacy\Model;
 use Loader;
-use Concrete\Package\ThemeSupermint\Src\Models\SupermintFont as SupermintFont;
+use Concrete\Package\ThemeSupermint\Models\SupermintFont as SupermintFont;
 
 class SupermintFontList {
 

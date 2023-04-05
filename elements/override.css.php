@@ -1,4 +1,4 @@
-<?php use Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions;defined('C5_EXECUTE') or die(_("Access Denied."));
+<?php use Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions;defined('C5_EXECUTE') or die(_("Access Denied."));
 $session = \Core::make('session');
 $themeColors = $session->get('supermint.colors');
 
@@ -17,15 +17,15 @@ if ($o === null) {
 /* --- Text Overrides --- */
 
 <?php 
-$p 	= new \Concrete\Package\ThemeSupermint\Src\Models\SupermintFont('p');
-$alternate 	= new \Concrete\Package\ThemeSupermint\Src\Models\SupermintFont('alternate');
-$h1 = new \Concrete\Package\ThemeSupermint\Src\Models\SupermintFont('h1');
-$h2 = new \Concrete\Package\ThemeSupermint\Src\Models\SupermintFont('h2');
-$h3 = new \Concrete\Package\ThemeSupermint\Src\Models\SupermintFont('h3');
-$h4 = new \Concrete\Package\ThemeSupermint\Src\Models\SupermintFont('h4');
-$h5 = new \Concrete\Package\ThemeSupermint\Src\Models\SupermintFont('h5');
-$h6 = new \Concrete\Package\ThemeSupermint\Src\Models\SupermintFont('h6');
-$small = new \Concrete\Package\ThemeSupermint\Src\Models\SupermintFont('small');
+$p 	= new \Concrete\Package\ThemeSupermint\Models\SupermintFont('p');
+$alternate 	= new \Concrete\Package\ThemeSupermint\Models\SupermintFont('alternate');
+$h1 = new \Concrete\Package\ThemeSupermint\Models\SupermintFont('h1');
+$h2 = new \Concrete\Package\ThemeSupermint\Models\SupermintFont('h2');
+$h3 = new \Concrete\Package\ThemeSupermint\Models\SupermintFont('h3');
+$h4 = new \Concrete\Package\ThemeSupermint\Models\SupermintFont('h4');
+$h5 = new \Concrete\Package\ThemeSupermint\Models\SupermintFont('h5');
+$h6 = new \Concrete\Package\ThemeSupermint\Models\SupermintFont('h6');
+$small = new \Concrete\Package\ThemeSupermint\Models\SupermintFont('small');
 ?>
 
 /* -- FONTS --- */

@@ -1,7 +1,7 @@
 <?php  defined('C5_EXECUTE') or die(_("Access Denied."));
 $c = Page::getCurrentPage();
 // Les options
-$o = \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions::get();
+$o = \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions::get();
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo Localization::activeLanguage()?>" class="<?php  echo $o->navigation_style == 'lateral-regular' ? 'with-lateral-nav' : '' ?>">

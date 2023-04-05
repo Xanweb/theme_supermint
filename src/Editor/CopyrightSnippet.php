@@ -1,5 +1,5 @@
 <?php 
-namespace Concrete\Package\ThemeSupermint\Src\Editor;
+namespace Concrete\Package\ThemeSupermint\Editor;
 use Loader;
 use User;
 use URL;

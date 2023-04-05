@@ -327,4 +327,4 @@ $options = array(
     )
 );
 if (!isset($passThrough))
-new Concrete\Package\ThemeSupermint\Src\Helper\OptionsGenerator($options, $pID, $this->action('save_options'), $this->action('view'));
+new Concrete\Package\ThemeSupermint\Helper\OptionsGenerator($options, $pID, $this->action('save_options'), $this->action('view'));

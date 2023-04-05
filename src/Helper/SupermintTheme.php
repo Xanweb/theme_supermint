@@ -1,5 +1,5 @@
 <?php 
-namespace Concrete\Package\ThemeSupermint\Src\Helper;
+namespace Concrete\Package\ThemeSupermint\Helper;
 
 
 defined('C5_EXECUTE') or die(_("Access Denied."));
@@ -12,7 +12,7 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
  * @license    http://www.concrete5.org/license/     MIT License
  */
 use stdClass;
-use \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions;
+use \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions;
 use Package;
 use Loader;
 

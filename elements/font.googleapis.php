@@ -2,7 +2,7 @@
 
 $time_start = microtime(true);
 
-use \Concrete\Package\ThemeSupermint\Src\Models\SupermintFontList;
+use \Concrete\Package\ThemeSupermint\Models\SupermintFontList;
 
 $list = new SupermintFontList();
 $list->addFont('p');

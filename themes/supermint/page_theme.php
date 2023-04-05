@@ -1,7 +1,7 @@
 <?php 
 namespace Concrete\Package\ThemeSupermint\Theme\Supermint;
 
-use \Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions;
+use \Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions;
 use Concrete\Core\Area\Layout\Preset\Provider\ThemeProviderInterface;
 use stdClass;
 use Package;

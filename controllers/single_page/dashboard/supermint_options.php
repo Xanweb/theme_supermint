@@ -2,8 +2,8 @@
 namespace Concrete\Package\ThemeSupermint\Controller\SinglePage\Dashboard;
 
 use Concrete\Core\Page\Controller\DashboardPageController;
-use Concrete\Package\ThemeSupermint\Src\Models\ThemeSupermintOptions;
-use Concrete\Package\ThemeSupermint\Src\Helper\ThemeFile;
+use Concrete\Package\ThemeSupermint\Models\ThemeSupermintOptions;
+use Concrete\Package\ThemeSupermint\Helper\ThemeFile;
 use Concrete\Core\Asset\Asset;
 use Concrete\Core\Asset\AssetList;
 use Package;

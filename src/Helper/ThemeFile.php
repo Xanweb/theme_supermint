@@ -1,5 +1,5 @@
 <?php 
-namespace Concrete\Package\ThemeSupermint\Src\Helper;
+namespace Concrete\Package\ThemeSupermint\Helper;
 
 defined('C5_EXECUTE') or die("Access Denied.");
 
